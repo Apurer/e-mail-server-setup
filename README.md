@@ -14,7 +14,7 @@ First step is to install  postfix and mailutils with a command:
 
 There is a chance window will change to:
 
-https://i.imgur.com/K93U91d.png
+![ScreenShot](https://i.imgur.com/K93U91d.png)
 
 This is a configuration wizard which can help out to set up basic information about your e-mail service.
 Press next on every stage without filling out details.
@@ -26,12 +26,12 @@ More in depth configuration of postfix with command:
 
 Press `ok` for the first screen.
 
-(https://i.imgur.com/K93U91d.png)
+![ScreenShot](https://i.imgur.com/K93U91d.png)
 
 
 Choose "Internet Site":
 
-(https://i.imgur.com/PKC56XD.png)
+![ScreenShot](https://i.imgur.com/PKC56XD.png)
 
 Type in your domain name.
 #### example.com
