@@ -34,34 +34,34 @@ Choose "Internet Site":
 https://i.imgur.com/PKC56XD.png
 
 Type in your domain name.
-####example.com
+#### example.com
 
 Type in name of your postmaster.
-####username
+#### username
 
 Next provide list of domains this machine should consider itself the final destination. 
 
-####leave default
+#### leave default
 
 Enforce synchronous updates on mail queue?
 
-####no
+#### no
 
 Local networks has not to be really changed.
-####leave default
+#### leave default
 
 
 Mailbox size limit to
 
-####0
+#### 0
 
 Local address extension character
 
-####+
+#### +
 
  Internet protocols to use:
 
-####ipv4
+#### ipv4
 
 Setting inet_protocols to ipv4 due error which happen to occur when Gmail Guidelines for IPv6 are not met.
 
@@ -119,7 +119,7 @@ To apply changes in the postfix configuration:
 
 `sudo /etc/init.d/postfix restart`
 
-##Before you send an e-mail
+## Before you send an e-mail
 
 Don’t send a test email to outlook, yahoo or AOL before setting up all the authentications within this guide.
 
@@ -147,7 +147,7 @@ Set type to "TXT" and type in value:
 
 Save changes.
 
-##Setting up DMARC
+## Setting up DMARC
 
 Go to DNS provider of your domain and create new record set.
 
@@ -165,7 +165,7 @@ Set type to "TXT" and type in value:
 
 Save changes.
 
-##Setting up DKIM
+## Setting up DKIM
 
 Install  opendkim with a command:
 
@@ -418,7 +418,7 @@ To finish and send an e-mail follow up with
 
 `~.`
 
-##Removing additional information about sent e-mail:
+## Removing additional information about sent e-mail:
 
 There is a chance information when inspecting original e-mail will be shown like:
 
@@ -454,6 +454,6 @@ Reload postfix with:
 `postfix reload`
 
 
-##Mail Traffic
+## Mail Traffic
 It's possible e-mail traffic on port 25 will be blocked by default on your server.
 In this situation a ticket is required to the Vultr staff about it.
