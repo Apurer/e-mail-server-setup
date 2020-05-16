@@ -452,8 +452,3 @@ Load settings with command:
 Reload postfix with:
 
 `postfix reload`
-
-
-## Mail Traffic
-It's possible e-mail traffic on port 25 will be blocked by default on your server.
-In this situation a ticket is required to the Vultr staff about it.
