@@ -26,12 +26,12 @@ More in depth configuration of postfix with command:
 
 Press `ok` for the first screen.
 
-https://i.imgur.com/K93U91d.png
+(https://i.imgur.com/K93U91d.png)
 
 
 Choose "Internet Site":
 
-https://i.imgur.com/PKC56XD.png
+(https://i.imgur.com/PKC56XD.png)
 
 Type in your domain name.
 #### example.com
