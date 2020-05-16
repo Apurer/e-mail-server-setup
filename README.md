@@ -1,6 +1,6 @@
 # E-mail server setup.
 
-##Depending if you already have an user for receiving mail for root add an user using command:
+## Depending if you already have an user for receiving mail for root add an user using command:
 
 `sudo useradd -m <your_username>`
 
